@@ -411,7 +411,7 @@ export class NgbTypeahead implements ControlValueAccessor,
 
       // live announcer
       const count = results ? results.length : 0;
-      this._live.say(count === 0 ? 'No results available' : `${count} result${count === 1 ? '' : 's'} available`);
+      this._live.say(count === 0 ? 'Nessun risultato disponibile' : `Elenco di ${count} risultat${count === 1 ? 'o' : 'i'}`);
     });
   }
 
